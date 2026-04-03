@@ -6,8 +6,11 @@ import { ArrowUpRight, Paintbrush, Hammer, Pencil, MonitorPlay, Camera } from "l
 import CircularGallery from "../components/CircularGallery"; // adjust path if needed
 
 // --- DYNAMIC CURATED DATA WITH REAL IMAGES ---
-const WALL_BG = "src/assets/faded-orange-wall-with-row-spotlights-empty-room.jpg";
-const Studio_BG = "src/assets/4125099.jpg";
+import wallBg from "../assets/faded-orange-wall-with-row-spotlights-empty-room.jpg";
+import studioBg from "../assets/4125099.jpg";
+
+const WALL_BG = wallBg;
+const Studio_BG = studioBg;
 
 const CATEGORIES = [
   { 
