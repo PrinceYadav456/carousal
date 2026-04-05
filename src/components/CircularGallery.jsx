@@ -151,6 +151,7 @@ const CircularGallery = ({ gallery }) => {
             <img
               src={item.src}
               alt={item.title}
+              loading="lazy"
               className="w-full h-full object-cover rounded-2xl shadow-2xl block"
             />
             {/* Text block – fully transparent background */}

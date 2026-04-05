@@ -194,7 +194,7 @@ const Panel = ({ data, isActive, onClick, onHoverStart, onHoverEnd }) => {
             {/* Centered image */}
             <div className="relative z-30 flex flex-col items-center w-[85%] max-w-[380px] -mt-17">
               <div className="relative w-[220px] h-[220px] shadow-[0_30px_60px_rgba(0,0,0,0.9)] bg-[#111] z-20">
-                <img src={item.src} alt={item.title} className="w-full h-full object-cover border border-white/10" />
+                <img src={item.src} alt={item.title} loading="lazy" className="w-full h-full object-cover border border-white/10" />
               </div>
               {/* Text below the image */}
               <div className="relative mt-4 z-40 text-center pointer-events-none">
